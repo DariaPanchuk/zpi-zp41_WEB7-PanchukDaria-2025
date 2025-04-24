@@ -1,0 +1,135 @@
+.snackbar-container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.custom-error-toast .iziToast-body {
+    padding-left: 0px !important;
+}
+
+.custom-error-toast .iziToast-icon {
+    display: none !important; 
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.custom-error-toast .iziToast-body {
+    display: flex;
+    align-items: center;
+}
+
+.custom-error-toast .iziToast-body::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../svg/error.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.custom-error-toast .iziToast-close {
+    background: url(../svg/close.svg)  no-repeat 50% 50%;
+}
+
+.custom-success-toast .iziToast-body {
+    padding-left: 0px !important;
+}
+
+.custom-success-toast .iziToast-icon {
+    display: none !important; 
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.custom-success-toast .iziToast-body {
+    display: flex;
+    align-items: center;
+}
+
+.custom-success-toast .iziToast-body::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../svg/ok.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.custom-success-toast .iziToast-close {
+    background: url(../svg/close.svg)  no-repeat 50% 50%;
+}
+
+.submit-btn {
+    width: 100%;
+    font-weight: 500;
+    padding: 8px 99px;
+    border-radius: 8px;
+    border: none;
+    background-color: #4E75FF;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #6C8CFF;
+}
+
+.state-container {
+    margin-bottom: 24px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 4px;
+    padding: 24px 38px 8px 38px;
+    outline: none;
+    border: 1px solid #808080;
+}
+
+.state-container:hover,
+.state-container:focus {
+    border-color: #2E2F42;
+}
+
+.state-container label:not(:last-child) {
+    margin-right: 48px;
+}
+
+.state-container label>input {
+    cursor: pointer;
+}
+
+.delay-label {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.delay-input {
+    border-radius: 4px;
+    padding: 8px 16px;
+    outline: none;
+    border: 1px solid #808080;
+}
+
+.delay-input:hover {
+    border-color: #2E2F42;
+}
+
+.delay-input:focus {
+    border-color: #4E75FF;
+}

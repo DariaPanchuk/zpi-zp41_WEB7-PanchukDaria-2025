@@ -1,0 +1,129 @@
+.flatpickr-calendar {
+    background-color: #F5F5F5;
+    font-size: 16px;
+}
+
+.flatpickr-day.today {
+    border: 1px solid #4E75FF !important;
+    border-radius: 50%;
+}
+
+.flatpickr-day.selected {
+    background-color: #4E75FF !important;
+    color: #FFFFFF !important;
+    border-radius: 50%;
+}
+
+.flatpickr-day:hover,
+.flatpickr-day:focus {
+    background-color: #C1C1C1 !important;
+}
+
+.timer-container {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-input {
+    padding: 8px 16px;
+    width: 272px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+    margin-right: 8px;
+    margin-bottom: 32px;
+}
+
+.timer-input:hover {
+    border: 1px solid #000000;
+}
+
+.timer-input:focus {
+    border: 1px solid #4E75FF;
+    outline: none;
+}
+
+.timer-input:disabled {
+    background-color: #FAFAFA;
+    border: 1px solid #808080;
+    color: #808080;
+}
+
+.timer-button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.timer-button:disabled {
+    background-color: #CFCFCF;
+    color: #989898;
+    border: none;
+}
+
+.timer-button:hover,
+.timer-button:focus {
+    background-color: #6C8CFF;
+    color: #FFFFFF;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.timer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    font-size: 40px;
+}
+
+.label {
+    text-transform: uppercase;
+}
+
+.custom-error-toast .iziToast-body {
+    padding-left: 0px !important;
+}
+
+.custom-error-toast .iziToast-icon {
+    display: none !important; 
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.custom-error-toast .iziToast-body {
+    display: flex;
+    align-items: center;
+}
+
+.custom-error-toast .iziToast-body::before {
+    content: '';
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../svg/error.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+    flex-shrink: 0;
+}
+
+.custom-error-toast .iziToast-close {
+    background: url(../svg/close.svg)  no-repeat 50% 50%;
+}
